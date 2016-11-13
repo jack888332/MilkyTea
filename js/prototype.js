@@ -4,4 +4,5 @@
 
 function ff(){
     var aa = alert("song");
+    aa = 2;
 }
