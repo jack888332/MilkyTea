@@ -1,0 +1,15 @@
+.header #frame1 {
+    position: relative;
+    background-color: crimson;
+}
+
+.header #globalSearch {
+    position: absolute;
+    background-color: darkblue;
+}
+
+
+
+
+
+

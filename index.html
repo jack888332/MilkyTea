@@ -1,47 +1,86 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-    <!--常规-->
     <meta http-equiv=Content-Type content="text/html; charset=utf-8">
-    <meta http-equiv=Content-Language content="zh-CN"/>
     <meta http-equiv=Cache-Control content="no-cache">
-    <!--<meta http-equiv=Refresh content="10; url=http://www.baidu.com">-->
-    <!--<meta http-equiv=Expires content="Wed, 22 Jul 2016 16:24:33 GMT">-->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="css/base/master.css">
+    <link rel="stylesheet" href="css/base/font.css">
+    <link rel="stylesheet" href="css/base/layout.css">
+    <link rel="stylesheet" href="css/module/header.css">
 </head>
 
 <body>
-<div class="bbb">
-    <div class="ccc">
-        <ul id="nav">
+<!--头部-->
+<div class="header">
+    <div id="frame1" class="frameNorm1 alignCenter">
+        <div id="brand" class="font-3">
+            <img src="resource\icon\logo.png" height="80pt" width="80pt" />
+            <span>店艺优品</span>
+        </div>
+        <div id="globalSearch">
+            <form class="searchBar font-2">
+                <input type="search" name="search" value="关键字" style="width: 300pt;height: 22pt">
+                <input type="button" name="submit" value="搜索" style="width: 60pt;height: 22pt">
+            </form>
+        </div>
+        <script>
+            // 设置位移
+            (function () {
+                $().css()
+            })();
+        </script>
+    </div>
+    <div id="nav" class="font-1" style="background: #cd4b82">
+        <div>
+            所有作品
+        </div>
+        <ul class="horizontal">
             <li>首页</li>
-            <li>原料管理</li>
-            <li>员工管理</li>
-            <li>财务管理</li>
+            <li>接任务</li>
+            <li>找秀客</li>
         </ul>
     </div>
-    <div id="ads" >
-        <
-    </div>
-    <div>
-        <h1>
+</div>
 
-        </h1>
+<!--左侧-->
+<div class="leftSidebar">
+    <div class="group" id="group1">
+        <ul>
+            <li data-myname="jack" draggable="true"><a href="#">原料管理</a>
+                <span>▶</span>
+            </li>
+            <li contenteditable="true" ><a href="#">员工管理</a>
+                <span>▶</span>
+            </li>
+            <li><a href="#">财务管理</a>
+                <span>▶</span>
+            </li>
+        </ul>
     </div>
-    <div>
-        <cite></cite>
+    <div class="group" id="group2">
+        <ul>
+            <li><a href="#">远程监控</a>
+                <span>▶</span>
+            </li>
+            <li><a href="#">区块链</a>
+                <span>▶</span>
+            </li>
+        </ul>
     </div>
 </div>
-<div>
-    <div>
-        dfa
-    </div>
-    <div>
 
-    </div>
-    <div>
-
-    </div>
+<!--主体-->
+<div class="main">
+    主体
 </div>
+
+<script>
+    (function () {
+        document.writeln(document.baseURI);
+        document.
+    })();
+</script>
+
 </body>
 </html>

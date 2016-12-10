@@ -1,0 +1,11 @@
+.alignCenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frameNorm1 {
+    width: 1200px;
+}
+
+ul.horizontal li {float:left}
+#globalSearch {float:none}
