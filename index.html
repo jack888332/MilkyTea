@@ -13,33 +13,44 @@
 <body>
 <!--头部-->
 <div class="header">
-    <div id="frame1" class="frameNorm1 alignCenter">
+    <div id="headerLayout1" class="frameNorm1 alignCenter">
         <div id="brand" class="font-3">
-            <img src="resource\icon\logo.png" height="80pt" width="80pt" />
+            <img src="resource\icon\logo.png" height="80" width="80"/>
             <span>店艺优品</span>
         </div>
         <div id="globalSearch">
             <form class="searchBar font-2">
-                <input type="search" name="search" value="关键字" style="width: 300pt;height: 22pt">
-                <input type="button" name="submit" value="搜索" style="width: 60pt;height: 22pt">
+                <input type="search" name="search" style="width: 260pt;height: 32px">
+                <input type="button" name="submit" value="搜索" style="width: 60pt;height: 32px">
             </form>
         </div>
+        <div id="headerOthers">
+            <img id="user" src="resource/icon/logo.png" height="45" width="45"/>
+            <img id="mobile" src="resource/icon/logo.png" height="45" width="45"/>
+            <img id="phone" src="resource/icon/logo.png" height="45" width="45"/>
+        </div>
         <script>
-            // 设置位移
-            (function () {
-                $().css()
-            })();
+            $("#globalSearch").css({
+                top: ($("#headerLayout1").height() - $("#globalSearch").height()) / 2,
+                left: ($("#headerLayout1").width() - $("#globalSearch").width()) / 2
+            })
+            $("#headerOthers").css({
+                top: ($("#headerLayout1").height() - $("#headerOthers").height()) / 2,
+                right: 0
+            })
         </script>
     </div>
-    <div id="nav" class="font-1" style="background: #cd4b82">
-        <div>
-            所有作品
+    <div id="headerLayout2">
+        <div id="majorNav" class="frameNorm1 alignCenter font-1">
+            <h1>所有作品</h1>
+            <div class="first">
+                <ul class="horizontal">
+                    <li>首页</li>
+                    <li>接任务</li>
+                    <li>找秀客</li>
+                </ul>
+            </div>
         </div>
-        <ul class="horizontal">
-            <li>首页</li>
-            <li>接任务</li>
-            <li>找秀客</li>
-        </ul>
     </div>
 </div>
 
@@ -50,7 +61,7 @@
             <li data-myname="jack" draggable="true"><a href="#">原料管理</a>
                 <span>▶</span>
             </li>
-            <li contenteditable="true" ><a href="#">员工管理</a>
+            <li contenteditable="true"><a href="#">员工管理</a>
                 <span>▶</span>
             </li>
             <li><a href="#">财务管理</a>

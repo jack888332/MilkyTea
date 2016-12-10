@@ -1,10 +1,8 @@
 /* 导航 */
 .font-1 {
     font-family: "微软雅黑";
-    font-size: large;
+    font-size: 12pt;
     font-style: normal;
-    font-weight: bold;
-    font-variant: normal;
 }
 
 /* 输入、菜单 */

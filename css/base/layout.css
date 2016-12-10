@@ -7,5 +7,7 @@
     width: 1200px;
 }
 
-ul.horizontal li {float:left}
-#globalSearch {float:none}
+ul.horizontal li {
+    float: left;
+    padding: 0px 25px;
+}

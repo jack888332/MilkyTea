@@ -1,12 +1,38 @@
-.header #frame1 {
+#headerLayout1 {
     position: relative;
-    background-color: crimson;
+    height: 90px;
 }
 
-.header #globalSearch {
+#globalSearch, #headerOthers {
     position: absolute;
-    background-color: darkblue;
 }
+
+#headerLayout2 {
+    height: 40px;
+    line-height: 40px;
+    background: #f2f2f2;
+}
+
+#headerLayout2 * {
+    height: inherit;
+    line-height: inherit;
+}
+
+#majorNav h1 {
+    float: left;
+    width: 210px;
+    background-color: yellowgreen;
+    text-align: center;
+    color: white;
+    margin-right: 45px;
+}
+
+#majorNav div.first {
+    float: left;
+}
+
+
+
 
 
 
