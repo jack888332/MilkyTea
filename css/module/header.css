@@ -1,5 +1,8 @@
-#headerLayout1 {
+#headerLayout1, #headerLayout2, #splitLine {
     position: relative;
+}
+
+#headerLayout1 {
     height: 90px;
 }
 
@@ -7,10 +10,24 @@
     position: absolute;
 }
 
+#brand img {
+    float: left;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+#brand span {
+    float: left;
+    margin-top: 30px;
+    font-family: "幼圆";
+    font-size: 20pt;
+    font-weight: bold;
+}
+
 #headerLayout2 {
-    height: 40px;
-    line-height: 40px;
-    background: #f2f2f2;
+    height: 37px;
+    line-height: 37px;
+    background: #f8f8f8;
 }
 
 #headerLayout2 * {
@@ -30,6 +47,8 @@
 #majorNav div.first {
     float: left;
 }
+
+
 
 
 
